@@ -168,9 +168,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 1
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 578f1618cdb3b5c4a9120ba9fe67feef, type: 3}
 --- !u!82 &82563959621664170
@@ -182,7 +182,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3eb70d1bca3f2f94691a07da59e04c28, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 0.8
@@ -265,4 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rcsThrust: 250
-  mainThrust: 50
+  mainThrust: 30
+  mainEngine: {fileID: 8300000, guid: 6351b1e6cf8e46e458cfb90e2314ab87, type: 3}
+  death: {fileID: 8300000, guid: cae1bb34741643246bc4ba2e297a5859, type: 3}
+  success: {fileID: 8300000, guid: 3fef043a076c83e409826cf955d39aca, type: 3}
